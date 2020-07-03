@@ -1,0 +1,9 @@
+<button
+  (click)="onClick()"
+  [ngClass]="containerCssClass"
+  class="button__container"
+>
+  <ng-content></ng-content>
+</button>
+
+<ng-container #viewContainerRef></ng-container>
